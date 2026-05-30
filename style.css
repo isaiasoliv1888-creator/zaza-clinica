@@ -1,0 +1,182 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0047AB; /* Fundo azul rico */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container do Formulário */
+.login-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza todo o texto interno */
+}
+
+/* Seção do Logotipo */
+.logo-section {
+    margin-bottom: 30px;
+}
+
+.logo-image {
+    max-width: 60px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px;
+}
+
+.clinic-name {
+    font-size: 24px;
+    color: #0047AB; /* Azul do fundo */
+    font-weight: 700;
+}
+
+.clinic-subtitle {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    margin-top: -3px;
+}
+
+/* Título do Formulário */
+.form-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+/* Campos de Entrada */
+.input-group {
+    text-align: left; /* Alinha o rótulo à esquerda */
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #4FB3E8; /* Destaque azul claro */
+    outline: none;
+}
+
+/* Senha com botão de alternância */
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+}
+
+/* Botões */
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    background-color: #4FB3E8; /* Azul claro e vibrante */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #399ACD; /* Azul um pouco mais escuro no hover */
+}
+
+/* Links do Rodapé */
+.form-footer {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-link {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: #0047AB;
+}
+
+/* Área de Criar Nova Conta */
+.signup-prompt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup-prompt span {
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #ddd;
+    border-color: #ccc;
+}
+
+/* Feedback de Login */
+#login-feedback {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
